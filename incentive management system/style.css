@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.loginHeader {
+    text-align: center;
+}
+.loginHeader h1 {
+    margin: 0;
+    color: #333;
+}
+.loginHeader p {
+    margin-top: 5px;
+    color: #666;
+}
+.loginBody form div {
+    margin-bottom: 15px;
+}
+.loginBody form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+.loginBody form input[type="text"],
+.loginBody form input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.loginBody form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.loginBody form button:hover {
+    background-color: #0056b3;
+}

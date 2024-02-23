@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="loginHeader">
+            <h1>IMS</h1>
+            <p>Incentive Management System</p>
+        </div>
+        <div class="loginBody">
+            <form action="">
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div>
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+ 
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "library";
+
+$con = mysqli_connect($servername, $username, $password, $database);
+if (!$con) 
+{
+    die("Connection failed: " . mysqli_connect_error());
+} 
+else 
+{
+    echo "Connection established";
+}
+?>
+
+
